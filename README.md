@@ -11,7 +11,7 @@ Usage:
 1) create HTMLTextBlocksTree:
 - from html string:
 <pre>
-from  HTMLTextBlocksTree import *
+from  htmlparser import *
 html_string = "&lt;h1&gt;Hello, World!&lt;/h1&gt;"
 tree = HTMLTextBlocksTree(html_string)
 </pre>
