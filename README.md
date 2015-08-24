@@ -10,15 +10,18 @@ Usage:
 
 1) create HTMLTextBlocksTree:
 - from html string:
+<pre>
 from  HTMLTextBlocksTree import *
-html_string = "<h1>Hello, World!</h1>"
+html_string = "&lt;h1&gt;Hello, World!&lt;/h1&gt;"
 tree = HTMLTextBlocksTree(html_string)
+</pre>
    
 - from html file:
+<pre>
 from  HTMLTextBlocksTree import *
 html_file_name = "test.html"
 tree = HTMLTextBlocksTree(filename=html_file_name)
-
+</pre>
 
 - from URL:
 from  HTMLTextBlocksTree import *
